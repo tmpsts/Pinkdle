@@ -1,0 +1,30 @@
+.spacer {
+  flex: 0.5;
+}
+
+.largeKey {
+  flex: 1.5;
+}
+
+.defaultKey {
+  @apply bg-[#FCF7F8];
+  @apply active:bg-[#DCD7D8];
+}
+
+.wrong {
+  @apply bg-gray-300;
+  @apply border-gray-400;
+  @apply active:bg-gray-400;
+}
+
+.correct {
+  @apply bg-pink-400;
+  @apply border-pink-500;
+  @apply active:bg-pink-500;
+}
+
+.wrongPlace {
+  border-color: #f7dfbc;
+  background-color: #f7dfbc;
+  @apply active:bg-[#e7cfac];
+}
