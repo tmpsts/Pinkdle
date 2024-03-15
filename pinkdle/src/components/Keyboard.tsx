@@ -58,7 +58,7 @@ export const Key = ({ letter, onKeyPress, letterState }: KeyProps) => {
           [css.wrong]: letterState === 'wrong',
           [css.wrongPlace]: letterState === 'wrong-place',
         },
-        ' flex justify-center items-center rounded-md h-14 font-bold text-lg '
+        ' flex justify-center items-center rounded-2xl h-14 font-bold text-xl '
       )}
       onClick={() => onKeyPress(letter)}
     >

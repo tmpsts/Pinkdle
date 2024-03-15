@@ -56,7 +56,7 @@ export const Tile = ({ letter, state, idx, jump }: TileProps) => {
         animationDelay: state === 'default' ? '0ms' : `${animationDelay}ms`,
       }}
       className={classNames(
-        'border w-16 h-16 flex justify-center items-center rounded-2xl text-3xl font-bold',
+        'border w-16 h-16 flex justify-center items-center rounded-2xl text-[2.5rem] font-bold',
         {
           'border-gray-500': state === 'default' && !letter,
           [css.hasLetter]: !!letter,
