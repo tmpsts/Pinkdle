@@ -21,6 +21,7 @@
 .correct {
   @apply bg-pink-400;
   @apply border-pink-400;
+  @apply drop-shadow-glow_pink;
 }
 
 .wrongPlace {

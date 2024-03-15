@@ -24,6 +24,7 @@
   @apply border-pink-500;
   @apply hover:border-white;
   @apply active:bg-pink-500;
+  @apply drop-shadow-glow_pink;
 }
 
 .wrongPlace {

@@ -15,7 +15,7 @@ type Props = {
 
 export const Keyboard = ({ onKeyPress, letterToLetterState }: Props) => {
   return (
-    <div className='w-full flex flex-col gap-1'>
+    <div className='w-full flex flex-col gap-1 p-2 my-5'>
       {ROWS.map((letters, idx) => {
         return (
           <div className='flex w-full gap-1' key={idx}>
