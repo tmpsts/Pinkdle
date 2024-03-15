@@ -9,15 +9,15 @@ import {
 import { GuessRow } from './GuessRow';
 import { Keyboard } from './Keyboard';
 
-import css from './Game.module.css';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useCurrentGuessReducer } from '../hooks/useCurrentGuessReducer';
-import { isValidWord } from '../utils/isValidWord';
-import { getTileStates } from '../utils/getTileStates';
 import {
   getStoredGameState,
   setStoredGameState,
 } from '../utils/gameStateStorage';
+import { getTileStates } from '../utils/getTileStates';
+import { isValidWord } from '../utils/isValidWord';
+import css from './Game.module.css';
 
 type Props = {
   solution: string;

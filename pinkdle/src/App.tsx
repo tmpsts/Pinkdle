@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='flex flex-col h-full'>
       <Header />
-      <Game solution='TREES' />
+      <Game solution='POOCH' />
     </div>
   );
 }

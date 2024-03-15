@@ -1,4 +1,4 @@
-const GAME_STATE_KEY = 'wordleGameState';
+const GAME_STATE_KEY = 'pinkdleGameState';
 
 type GameState = {
   puzzleDate: string;
@@ -19,8 +19,7 @@ export const getStoredGameState = () => {
   if (gameState.puzzleDate !== getTodayPuzzleDate()) {
     return [];
   }
-  // return []; // uncomment to turn off local storage
-  return gameState.guesses;
+  return []; // uncomment to turn off local storage
 };
 
 export const setStoredGameState = (guesses: Array<string>) => {
