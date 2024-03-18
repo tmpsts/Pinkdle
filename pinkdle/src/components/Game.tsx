@@ -173,7 +173,7 @@ export const Game = ({ solution }: Props) => {
           {toastText}
         </div>
       )}
-      <div className='w-full max-w-lg max-h-[700px] flex flex-col items-center justify-between py-8 my-8 border-8 rounded-3xl bg-[#fff8f85b] border-[#fff8f85b]'>
+      <div className='w-full max-w-lg max-h-[700px] flex flex-col items-center justify-between py-4 my-4 border-8 rounded-3xl bg-[#fff8f85b] border-[#fff8f85b]'>
         <div className='flex flex-col gap-2'>
           {Array.from({ length: GAME_ROUNDS }).map((_, idx) => {
             const isCurrentGuess = idx === guesses.length;
